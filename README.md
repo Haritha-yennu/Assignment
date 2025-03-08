@@ -1,10 +1,10 @@
 # Assignment
 This repository contains three assignments focused on data analysis using PySpark. Each assignment demonstrates different aspects of data manipulation, extraction, and visualization using PySpark DataFrames. Below are the details of each assignment.
 
-Assignment 1: Movie Ratings Analysis
+**Assignment 1: Movie Ratings Analysis**
 Objective: Analyze a dataset of movie ratings to derive insights about user behavior and movie performance.
 
-Key Steps:
+**Key Steps:**
 
 Data Generation: A synthetic dataset is created with the schema: MovieID, User ID, Rating, and Timestamp.
 Data Loading: The dataset is loaded into a PySpark DataFrame for analysis.
@@ -14,10 +14,10 @@ Top Movies Determination: The top 5 highest-rated movies are determined based on
 Visualization: A bar chart is generated to visualize the number of movies rated by each user.
 Technologies Used: PySpark, Pandas, Matplotlib
 
-Assignment 2: Trip Data Analysis
+**Assignment 2: Trip Data Analysis**  
 Objective: Analyze trip data to understand trip durations, fares, and patterns in trip activity.
 
-Key Steps:
+**Key Steps:**
 
 Data Generation: A small dataset is created with the schema: TripID, StartTime, EndTime, Distance, and Fare.
 Data Loading: The dataset is loaded into a PySpark DataFrame.
@@ -27,10 +27,10 @@ Longest Trips Identification: The top 3 longest trips based on distance are iden
 Hourly Trip Count: Trips are grouped by hour, and the total number of trips per hour is calculated and visualized.
 Technologies Used: PySpark, Matplotlib
 
-Assignment 3: Log Analysis
+**Assignment 3: Log Analysis**
 Objective: Analyze log data to extract meaningful insights regarding application behavior and error occurrences.
 
-Key Steps:
+**Key Steps:**
 
 Log File Generation: A log file is created with various log entries, including timestamps, log levels (INFO, ERROR), and messages.
 Data Loading: The log file is loaded into a PySpark DataFrame.
